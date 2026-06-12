@@ -1,0 +1,12 @@
+{
+  "name": "acm-root",
+  "version": "1.0.0",
+  "description": "Root workspace of NMIMS Indore ACM Chapter Website",
+  "private": true,
+  "scripts": {
+    "dev": "node run-dev.js",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "build:all": "npm run build --prefix frontend && npm run build --prefix backend",
+    "build:backend": "npm run build --prefix backend"
+  }
+}
